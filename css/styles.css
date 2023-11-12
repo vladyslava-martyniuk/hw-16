@@ -1,0 +1,59 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.cotainer{
+    width: 1200px ;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.bg-box {
+  background-color: green;
+  margin-top: 40px;
+  background-image: url(https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg),
+  url(https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png),url(https://www.freeiconspng.com/uploads/lamp-png-0.png), url(https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/Ёжик.png/revision/latest?cb=20180209130328&path-prefix=ru), url(https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png);
+  background-position: center, bottom, top, left, right;
+  background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y; 
+  background-size: 500px, 300px, 50px, 50px, 50px;
+  width: 1200px;
+  height: 600px;
+
+}
